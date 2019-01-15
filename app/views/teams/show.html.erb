@@ -1,0 +1,4 @@
+<h1><%= @team.name %></h1>
+<h1><%= @team.mascot %></h1>
+<%= button_to "Edit Team", team_edit_path(@team), method: :get  %> <br>
+<%= button_to "Delete Team", team_path(@team), method: :delete %>
