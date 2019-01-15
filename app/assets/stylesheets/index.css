@@ -1,0 +1,11 @@
+.teams-index {
+  background-color: #eee;
+}
+
+#link {
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  border: solid 3px;
+  padding: 3px;
+}

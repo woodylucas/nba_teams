@@ -1,6 +1,14 @@
-<h1>All Teams</h1>
+<div class="teams-index">
+
+<h1>NBA TEAMS</h1>
+<span>
 <ul>
-  <% @teams.each do |team|   %>
-  <li><%= link_to team.name, team_path(team) %></li>
+  <% @teams.each do |team| %>
+  <li><%= link_to team.name, team_path(team)%></li>
   <% end %>
 </ul>
+</span>
+
+ <%= link_to "Create Team", new_team_path(), {:style=>'text-decoration: none; color: black; background-color: orange; border: solid 3px; padding: 3px; border-radius: 10px; display: inline-block; cursor: pointer; '}%>
+
+</div>
